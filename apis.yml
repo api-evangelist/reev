@@ -1,7 +1,24 @@
 aid: reev
 name: REEV
-description: REEV is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: REEV is a medical-technology company developing AI-powered wearable robotics for
+  mobility recovery and neurological gait rehabilitation. Its REEV SENSE platform uses smart
+  shoe- and leg-mounted sensors to analyze gait and visualize biomarkers in a mobile app, and
+  its DREEVEN motorized knee-ankle-foot orthosis (KAFO) delivers robotic walking assistance
+  personalized from REEV SENSE gait data. REEV serves outpatient clinics and rehabilitation
+  centers treating stroke, multiple sclerosis, and paraplegia, and is backed by Techstars,
+  NVIDIA Inception, and Bpifrance.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://reev.care/wp-content/uploads/2022/09/cropped-logo-degrade.png
 url: https://raw.githubusercontent.com/api-evangelist/reev/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Medical Devices
+- Rehabilitation
+- Wearables
+- Robotics
+- Mobility
+- Digital Health
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/reev-domain-security.yml
 - type: Website
   url: https://reev.care/
+- type: Blog
+  url: https://reev.care/blog/
+- type: Support
+  url: https://reev.care/contact/
+- type: PrivacyPolicy
+  url: https://reev.care/privacy-policy/
+- type: TermsOfService
+  url: https://reev.care/legal-notice/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
