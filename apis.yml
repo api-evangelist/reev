@@ -7,6 +7,17 @@ description: REEV is a medical-technology company developing AI-powered wearable
   personalized from REEV SENSE gait data. REEV serves outpatient clinics and rehabilitation
   centers treating stroke, multiple sclerosis, and paraplegia, and is backed by Techstars,
   NVIDIA Inception, and Bpifrance.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
